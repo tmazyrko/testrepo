@@ -1,7 +1,10 @@
 # Link to Markdown Resources
 
-1. Step 1
-2. Step 2
-3. Step 3
-
 [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
+
+## Remove .htaccess file from build so AFS doesn't return 500 error
+
+1. Edit gulpfile.babel.js
+2. Around line 154, comment out line pertaining to .htaccess
+3. ???
+4. Profit
